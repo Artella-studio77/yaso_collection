@@ -230,8 +230,6 @@ footer{
 .social{font-size:24px;margin-top:10px;word-spacing:15px;color:#a6742c}
 
 /* ===== إضافات جديدة ===== */
-
-/* زر لوحة التحكم */
 .admin-link{
  display:block; width:50px; height:50px; position:fixed; bottom:15px; left:15px;
  background:var(--gold); color:white; border-radius:50%; text-align:center;
@@ -239,7 +237,6 @@ footer{
 }
 .admin-link:hover{ opacity:1; }
 
-/* شريط التقييمات المتحرك (في الأسفل) */
 .marquee-container{
  width: 100%; overflow: hidden; background: var(--gold); color: white;
  padding: 10px 0; margin-top: 25px; border-radius: 20px; direction: rtl;
@@ -253,7 +250,6 @@ footer{
  100% { transform: translateX(100%); }
 }
 
-/* قسم الصور الحقيقية للآراء */
 .reviews-section {
  margin: 50px 0;
  text-align: center;
@@ -356,16 +352,14 @@ footer{
 
 <main class="container">
 
-<div class="heroArt">
-  <div class="artCircle">
-    <span class="flower f1">✿</span>
-    <!-- ضعي رابط صورتك هنا بدلاً من الرابط المثال -->
-    <img src="logo.jpg" 
-         alt="Yaso Collection" 
-         style="width: 240px; height: 240px; border-radius: 50%; object-fit: cover; border: 5px solid #fff; box-shadow: 0 15px 30px rgba(0,0,0,0.2);">
-    <span class="flower f2">✿</span>
-  </div>
-</div>
+<section class="hero">
+ <div class="heroArt">
+   <div class="artCircle">
+     <span class="flower f1">✿</span>
+     <div class="bigLogo">YS</div>
+     <span class="flower f2">✿</span>
+   </div>
+ </div>
 
  <div class="heroText">
    <div class="welcome">W E L C O M E &nbsp; T O</div>
@@ -378,7 +372,7 @@ footer{
      <a class="btn btnLight" href="#contact">تواصلي معنا</a>
    </div>
  </div>
-</>
+</section>
 
 <section class="stats">
  <div class="stat"><b>01</b><span>رضا عملائنا ♕</span></div>
@@ -427,7 +421,7 @@ footer{
  <p>للأناقة عنوان... ولذوقك مكان ♡</p>
  <div class="social">
     <!-- ضعي روابط حساباتك الحقيقية هنا -->
-    <a href="https://watsap:📞0672 93 65 94" target="_blank">🟢 واتساب</a> | 
+    <a href="https://wa.me/213672936594" target="_blank">🟢 واتساب</a> | 
     <a href="https://facebook.com/YASO.COLLECTION" target="_blank">📘 فيسبوك</a> | 
     <a href="https://www.instagram.com/yaso.collectoin?igsi=MTRiZzc0M3BnZ242ag==" target="_blank">📸 انستغرام</a>
  </div>
